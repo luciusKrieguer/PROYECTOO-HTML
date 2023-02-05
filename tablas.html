@@ -12,12 +12,26 @@
     <h1>Tabla </h1>
 
     <table>
+        <caption>HORARIO DE CLASES </caption>
+
+        <thead> 
+            <tr>
+            <th> </th>   
+            <th>L</th>
+            <th>M</th>
+            <th>I</th>
+            <th>J</th>
+            <th>V</th>
+            
+            </tr>
+        </thead>
+       <tbody>
         <tr>
             <td> 8:00-10:00</td>
             <td> matematicas</td>
             <td> matematicas</td>
             <td> matematicas</td>
-            <td> matematicas</td>
+            <td rowspan="2"> matematicas</td>
             <td> matematicas</td>
         </tr>
         <tr>
@@ -26,34 +40,37 @@
             <td>español</td>
             <td>español</td>
             <td>español</td>
-            <td>español</td>
         </tr>
 
         <tr>
             <td>12:00-1:00</td>
-            <td>almuerzo</td>
+            <td colspan="5">almuerzo</td>
            
          </tr>
 
 
          <tr>
             <td>1:00-3:00</td>
+            <td rowspan="2">ciencias</td>
             <td>ciencias</td>
             <td>ciencias</td>
             <td>ciencias</td>
-            <td>ciencias</td>
-            <td>ciencias</td>
+            <td >ciencias</td>
          </tr>
 
          <tr>
             <td>3:00-5:00</td>
-            <td>artes</td>
+          
             <td>artes</td>
             <td>artes</td>
             <td>artes</td>
             <td>artes</td>
          </tr>
-
+        </tbody>
+        <tfoot>
+            <td>total asignaturas</td>
+            <td colspan="5">4</td>
+        </tfoot>
     </table>
 
 </body>
